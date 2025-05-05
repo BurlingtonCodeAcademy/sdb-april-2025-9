@@ -6,10 +6,24 @@ while (x <= 9) {
     x++;
 }
 
+let dragonEnergy = 30;
+while (dragonEnergy > 0) {
+    // some code will happen
+    console.log("Knight attacks the dragon!")
+    dragonEnergy -= 3;
+    console.log("Dragon energy: ", dragonEnergy);
+}
+
+console.log("The dragon is dead!")
+
 // for example
 for (let i = 3; i <= 9; i++) {
     // the code to be executed
     console.log("For count: ", i);
+}
+
+for (let pushUps = 6; pushUps <= 20; pushUps += 2) {
+    console.log("Push up count: ", pushUps);
 }
 
 // do while example
